@@ -1,0 +1,23 @@
+
+
+.form-parent {
+    border-radius: 25px;
+    background: #7be5f3;
+    box-shadow: inset 5px 5px 100px #92ddd3,
+        inset -5px -5px 100px #1e2725;
+        padding: 15px;
+}
+
+label{
+    color: white;
+}
+
+select{
+    border-radius: 5px;
+    border: 1px solid #447fcc;
+}
+
+
+@media (max-width: 571px) {
+ 
+}

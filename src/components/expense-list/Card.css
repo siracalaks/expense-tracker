@@ -1,0 +1,41 @@
+.card {
+    background: linear-gradient(43deg, rgb(65, 88, 208) 0%, rgb(80, 152, 200) 46%, rgb(87, 221, 159) 100%);
+    display: flex;
+    flex-direction: column;
+    /* justify-content: start; */
+    justify-content: space-around;
+    align-items: center;
+    padding: 3px;
+    gap: 5px;
+    color: white;
+    text-align: center;
+}
+
+
+p {
+    padding-top: 10px;
+}
+
+
+@media (min-width: 768px) {
+    .card {
+        flex-direction: row;
+        justify-content: between;
+        gap: 5px;
+    }
+}
+
+
+
+
+@media (max-width: 570.98px) {
+
+    .time,
+    p,
+    mark,
+    a {
+        justify-content: left;
+        margin: auto;
+        font-size: small;
+    }
+}
